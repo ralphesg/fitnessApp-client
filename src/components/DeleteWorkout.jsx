@@ -73,7 +73,7 @@ export default function RemoveItemFromCart({ workout, fetchWorkout }) {
           
             Swal.fire({
                 title: 'Cancelled',
-                text: 'The item was not removed from the cart.',
+                text: 'Workout not deleted.',
                 icon: 'info',
                 customClass: {
                     confirmButton: 'sweet-warning'
